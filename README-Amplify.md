@@ -51,3 +51,16 @@ npx ampx sandbox
 ```bash
 npx ampx sandbox delete
 ```
+
+#  Amplify UI Library
+https://docs.amplify.aws/react/build-ui/
+
+- Amplify offers a UI Library to build web app user interfaces that are connected to the backend.
+
+- [`Authenticator`](https://ui.docs.amplify.aws/react/connected-components/authenticator?platform=react) component adds complete authentication flows to our application with minimal boilerplate.
+
+- Installation:
+
+```bash
+npm install @aws-amplify/ui-react
+```
