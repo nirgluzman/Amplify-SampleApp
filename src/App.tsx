@@ -6,6 +6,8 @@ import { generateClient } from 'aws-amplify/api';
 // import the GraphQL schema type definitions for type safety when using the API.
 import type { Schema } from '../amplify/data/resource';
 
+import { Auth } from './Auth';
+
 const client = generateClient<Schema>();
 
 async function sayHello() {
@@ -20,6 +22,7 @@ function App() {
   return (
     <>
       <button onClick={sayHello}>Click Me!</button>
+      <Auth />
     </>
   );
 }
